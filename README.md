@@ -19,17 +19,17 @@ Here is a preview of the main pages of the report, designed to provide insights 
 ### Page 1: Citywide Overview
 *This page provides a high-level summary of collisions across the five boroughs, tracking key metrics like total injuries and fatalities, and analyzing long-term trends.*
 
-![Citywide Overview Screenshot](https://raw.githubusercontent.com/YourUsername/YourRepo/main/Visualizations/Citywide_Overview.png)
+![Citywide Overview Screenshot](https://github.com/moro23/powerbi-nyc-collision-analysis/blob/master/Visualizations/citywide_overview.png)
 
 ### Page 2: Geospatial & Temporal Hotspots
 *This page uses a heatmap to visually identify the most dangerous intersections and street segments. It also provides a deep dive into the peak hours and days of the week when collisions are most likely to occur.*
 
-![Hotspot Analysis Screenshot](https://raw.githubusercontent.com/YourUsername/YourRepo/main/Visualizations/Hotspot_Analysis.png)
+![Hotspot Analysis Screenshot](https://github.com/moro23/powerbi-nyc-collision-analysis/blob/master/Visualizations/hotspot_analysis.png)
 
 ### Page 3: Vehicle & Contributing Factors Analysis
 *This page breaks down collisions by the types of vehicles involved and the primary contributing factors cited in police reports, answering questions about which vehicles are most common in accidents.*
 
-![Vehicle Analysis Screenshot](https://raw.githubusercontent.com/YourUsername/YourRepo/main/Visualizations/Vehicle_Analysis.png)
+![Vehicle Analysis Screenshot](https://github.com/moro23/powerbi-nyc-collision-analysis/blob/master/Visualizations/vehicle_factor_analysis.png)
 
 ---
 
@@ -61,7 +61,18 @@ In support of NYC's "Vision Zero" goal to eliminate traffic fatalities, this pro
 
 ## Key Insights (Pending Final Analysis)
 
-This section will be populated with a summary of the key findings and actionable insights derived from the completed dashboard, such as the identification of the top 5 most dangerous intersections, the peak collision hour on weekdays vs. weekends, and the vehicle types most disproportionately involved in fatal accidents.
+Here are three distinct, high-impact insights derived directly from your final report:
+
+1.  **Geographic & Temporal Hotspots Identified:** The analysis pinpoints **Brooklyn** as the borough with the highest number of both total collisions (**144K**) and fatalities (**162**) since 2020. Temporal analysis reveals a clear and dangerous daily pattern: collisions spike dramatically during the evening commute, peaking between **4 PM and 5 PM**, with **Friday** being the most frequent day for accidents. This provides specific targets for targeted traffic enforcement and public safety campaigns.
+
+2.  **Primary Cause of Collisions is Driver Inattention:** Despite numerous potential factors, **Driver Inattention/Distraction** is overwhelmingly the leading cause of collisions, cited in **174K** incidents. This single factor is nearly four times more common than the next leading cause ("Following Too Closely"), providing a clear and actionable focus for public awareness campaigns, such as "distracted driving" initiatives.
+
+3.  **Sedans are Disproportionately Involved in Accidents:** While a variety of vehicles are involved in collisions, common passenger cars are the most significant contributors. **Sedans (440K)** and **Station Wagons (330K)** are involved in far more accidents than any other vehicle type, including commercial vehicles like Taxis or Box Trucks. This insight can inform vehicle-specific safety messaging and engineering considerations.
+
+### **Additional Insights (for discussion or deeper analysis):**
+
+*   **Data Quality Limitation:** A significant number of records have "Unspecified" for the borough, vehicle type, and contributing factor. This highlights a critical limitation in the source data and suggests an opportunity for the NYPD to improve data collection consistency to enable even deeper analysis.
+*   **Collision vs. Fatality Trends:** While total collisions have shown a steady decline from 2020 to 2025, fatalities peaked in 2022 and have not declined at the same rate. This suggests that while there may be fewer accidents overall, the accidents that do occur may be becoming more severe.
 
 ---
 
